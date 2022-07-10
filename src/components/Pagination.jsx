@@ -4,7 +4,7 @@ import { Pagination, PaginationItem } from "@material-ui/lab";
 import { Link } from "react-router-dom";
 
 import { getPosts } from "../../../../../../../xampp/htdocs/Social_media_app-main/Social_media_app-main/client/src/actions/posts";
-import useStyles from "../../../../../../../xampp/htdocs/Social_media_app-main/Social_media_app-main/client/src/components/styles";
+import useStyles from "./styles";
 
 const Paginate = ({ page }) => {
 	const { numberOfPages } = useSelector(state => state.posts);
